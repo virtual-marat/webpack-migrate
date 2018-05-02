@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open",
+    "build": "rimraf build && webpack --progress"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/virtual-marat/webpack-migrate/issues"
   },
-  "homepage": "https://github.com/virtual-marat/webpack-migrate#readme"
+  "homepage": "https://github.com/virtual-marat/webpack-migrate#readme",
+  "dependencies": {
+    "@angular/core": "^6.0.0-rc.6",
+    "ts-loader": "^4.2.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.6.0"
+  },
+  "devDependencies": {
+    "file-loader": "^1.1.11",
+    "webpack-cli": "^2.1.2",
+    "webpack-dev-server": "^3.1.3"
+  }
 }
