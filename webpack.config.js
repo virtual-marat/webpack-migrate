@@ -3,8 +3,8 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    app: './src/index.ts',
-    vendor: ['@angular/core'] /* included vendors */
+    app: './src/main.ts',
+    vendor: './src/vendor.ts' /* included vendors */
   },
   output: {
     filename: '[name].js', /* [ app.js, vendor.js ] */

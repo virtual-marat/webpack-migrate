@@ -19,10 +19,19 @@
   },
   "homepage": "https://github.com/virtual-marat/webpack-migrate#readme",
   "dependencies": {
+    "@angular/animations": "^5.2.10",
+    "@angular/cdk": "^5.2.5",
+    "@angular/common": "^5.2.10",
+    "@angular/compiler": "^5.2.10",
     "@angular/core": "^6.0.0-rc.6",
+    "@angular/forms": "^5.2.10",
+    "@angular/material": "^5.2.5",
+    "@angular/platform-browser": "^5.2.10",
+    "@angular/platform-browser-dynamic": "^5.2.10",
     "ts-loader": "^4.2.0",
     "typescript": "^2.8.3",
-    "webpack": "^4.6.0"
+    "webpack": "^4.6.0",
+    "zone.js": "^0.8.26"
   },
   "devDependencies": {
     "file-loader": "^1.1.11",
